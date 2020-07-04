@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+
+# Logs
+logs
+*.log
+
+# Build objects
+dist
+
+# Environment variables
+.env
