@@ -2,3 +2,5 @@ version: "3.8"
 services:
   prometheus:
     image: prom/prometheus:v2.19.2
+    volumes:
+      - ./Prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
