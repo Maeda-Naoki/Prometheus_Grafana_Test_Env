@@ -2,3 +2,5 @@ version: "3.8"
 services:
   grafana:
     image: grafana/grafana:7.1.5
+    ports:
+      - 3000:3000
