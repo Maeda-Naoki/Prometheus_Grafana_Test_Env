@@ -2,3 +2,7 @@
 global:
   scrape_interval:  30s
   scrape_timeout:   10s
+
+# A list of scrape configurations.
+scrape_configs:
+  - job_name: prometheus
