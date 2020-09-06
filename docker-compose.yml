@@ -9,5 +9,7 @@ services:
 
   grafana:
     image: grafana/grafana:7.1.5
+    volumes:
+      - ./Grafana/Datasources/prometheus.yml:/etc/grafana/provisioning/datasources/prometheus.yml
     ports:
       - 3000:3000
