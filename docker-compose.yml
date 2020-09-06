@@ -13,3 +13,5 @@ services:
       - ./Grafana/Datasources/prometheus.yml:/etc/grafana/provisioning/datasources/prometheus.yml
     ports:
       - 3000:3000
+    depends_on:
+      - prometheus
